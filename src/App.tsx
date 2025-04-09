@@ -13,7 +13,7 @@ function App() {
         </>
       ),
       description: 'System zarządzania zleceniami',
-      icon: <span className="text-red-600 font-bold text-5xl mb-4 block">MyMAG</span>,
+      icon: <span className="text-red-600 font-bold text-3xl mb-7 block">MyMAG</span>,
       url: 'https://zlecenia.magtrans.eu/'
     },
     {
