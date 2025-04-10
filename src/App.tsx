@@ -4,7 +4,7 @@ import { Truck, FileSpreadsheet, ClipboardList, FileCheck, FileText, FormInput, 
 function App() {
   const backgroundPosition = {
     x: 50, // Change this value (0-100) to move image horizontally
-    y: 50  // Change this value (0-100) to move image vertically
+    y: 60  // Change this value (0-100) to move image vertically
   };
   const forms = [
     {
@@ -55,16 +55,16 @@ function App() {
       <div 
         className="h-64 bg-cover"
         style={{
-          backgroundImage: 'url("/photo/1111.png")',
+          backgroundImage: 'url("https://www.magtrans.eu/img/samples/two-boxes-photo.jpg")',
           backgroundPosition: `${backgroundPosition.x}% ${backgroundPosition.y}%`,
           backgroundColor: 'rgba(15, 3, 3, 0.7)',
           backgroundBlendMode: 'overlay'
         }}
       >
-        <div className="container mx-auto px-3 h-full flex items-center">
+        <div className="container mx-auto px-1 h-full flex items-center">
           <div>
-            <h1 className="text-4xl font-bold text-white mb-2">Portal dla Przewoźników</h1>
-            <p className="text-0.5xl text-gray-200">Wszystkie potrzebne formularze w jednym miejscu</p>
+            <h1 className="text-5xl font-bold text-white mb-2">Portal dla Przewoźników</h1>
+            <p className="text-xl text-gray-200">Wszystkie potrzebne formularze w jednym miejscu</p>
           </div>
         </div>
       </div>
