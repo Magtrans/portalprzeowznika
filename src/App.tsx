@@ -55,7 +55,7 @@ function App() {
       <div 
         className="h-64 bg-cover"
         style={{
-          backgroundImage: 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJi6uOXI7cgm1bRj1bd-H6baM1wXikzc2pmA&s")',
+          backgroundImage: 'url("C:\Users\mikolaj.czarnecki\Desktop\strona\photo\1111.png")',
           backgroundPosition: `${backgroundPosition.x}% ${backgroundPosition.y}%`,
           backgroundColor: 'rgba(15, 3, 3, 0.7)',
           backgroundBlendMode: 'overlay'
