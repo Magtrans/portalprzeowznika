@@ -1,9 +1,10 @@
 import React from 'react';
 import { Truck, FileSpreadsheet, ClipboardList, FileCheck, FileText, FormInput, MapPin, MapPinned, ShieldCheck, FileWarning } from 'lucide-react';
+
 function App() {
   const backgroundPosition = {
     x: 50, // Change this value (0-100) to move image horizontally
-    y: 60  // Change this value (0-100) to move image vertically
+    y: 50  // Change this value (0-100) to move image vertically
   };
   const forms = [
     {
@@ -54,7 +55,7 @@ function App() {
       <div 
         className="h-64 bg-cover"
         style={{
-          backgroundImage: 'url("https://photos.app.goo.gl/YD9Cd5BuTeSy6zau9")',
+          backgroundImage: 'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJi6uOXI7cgm1bRj1bd-H6baM1wXikzc2pmA&s")',
           backgroundPosition: `${backgroundPosition.x}% ${backgroundPosition.y}%`,
           backgroundColor: 'rgba(15, 3, 3, 0.7)',
           backgroundBlendMode: 'overlay'
