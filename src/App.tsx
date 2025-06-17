@@ -33,7 +33,7 @@ function App() {
       title: 'Wniosek reklamacyjny',
       description: 'Rozliczenie kosztów',
       icon: <FileWarning className="w-12 h-12 mb-4 text-red-600" />,
-      url: 'https://forms.gle/rj1CMC33sgH7DTC67'
+      url: ''
     },
     {
       title: 'Płatności / Dokumenty / Uwagi',
