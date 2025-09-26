@@ -30,10 +30,10 @@ function App() {
       url: 'https://docs.google.com/forms/d/e/1FAIpQLSedsVIdMLieYd7t4X8D6-kBnT2Ik0q1_EWNA8zsU8IeHIFPwA/viewform'
     },
     {
-      title: 'Wniosek reklamacyjny',
-      description: 'Rozliczenie kosztów',
-      icon: <FileWarning className="w-12 h-12 mb-4 text-red-600" />,
-      url: ''
+      title: ' Prześlij CMR',
+      description: 'Dodawanie faktur i dokumentów CMR',
+      icon: <FileSpreadsheet className="w-12 h-12 mb-4 text-red-600" />,
+      url: 'https://portal.magtrans.eu/'
     },
     {
       title: 'Płatności / Dokumenty / Uwagi',
@@ -46,6 +46,11 @@ function App() {
       description: 'Nawigacja i tunele tras',
       icon: <MapPinned className="w-12 h-12 mb-4 text-red-600" />,
       url: 'https://fm3.framelogic.pl/api/login'
+    },
+      {
+      title: 'Wniosek reklamacyjny',
+      description: 'Rozliczenie kosztów',
+      icon: <FileWarning className="w-12 h-12 mb-4 text-red-600" />,
     }
   ];
 
