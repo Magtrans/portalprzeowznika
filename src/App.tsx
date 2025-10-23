@@ -100,7 +100,7 @@ function App() {
         </div>
       </footer>
     </div>
-
-
+    );
+}
 
 export default App;
