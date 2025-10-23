@@ -15,19 +15,19 @@ function App() {
       ),
       description: 'System zarządzania zleceniami',
       icon: <span className="text-red-600 font-bold text-3xl mb-7 block">MyMAG</span>,
-      url: 'https://zlecenia.magtrans.eu/'
+      url: ''
     },
     {
       title: 'Zgłoś wyjazd auta',
       description: 'Rejestracja wyjazdu pojazdu',
       icon: <Truck className="w-12 h-12 mb-4 text-red-600" />,
-      url: 'https://docs.google.com/forms/d/e/1FAIpQLSdKY5J59t3gkspXJoiZmil2DjekYfinZw3CiaxX7m_8n86S7g/viewform'
+      url: ''
     },
     {
       title: 'Wniosek gwarancyjny',
       description: 'Zgłoszenie wniosku gwarancyjnego',
       icon: <ShieldCheck className="w-12 h-12 mb-4 text-red-600" />,
-      url: 'https://docs.google.com/forms/d/e/1FAIpQLSedsVIdMLieYd7t4X8D6-kBnT2Ik0q1_EWNA8zsU8IeHIFPwA/viewform'
+      url: ''
     },
     {
       title: ' Prześlij CMR',
