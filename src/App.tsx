@@ -15,7 +15,7 @@ function App() {
       ),
       description: 'System zarządzania zleceniami',
       icon: <span className="text-red-600 font-bold text-3xl mb-7 block">MyMAG</span>,
-      url: ''
+      url: 'https://mymag.magtrans.eu/login'
     },
     {
       title: 'Zgłoś wyjazd auta',
@@ -33,7 +33,7 @@ function App() {
       title: ' Prześlij CMR',
       description: 'Dodawanie faktur i dokumentów CMR',
       icon: <FileSpreadsheet className="w-12 h-12 mb-4 text-red-600" />,
-      url: ''
+      url: 'https://portal.magtrans.eu/cmr/upload'
     },
     {
       title: 'Płatności / Dokumenty / Uwagi',
